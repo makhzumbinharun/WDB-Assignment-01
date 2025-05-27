@@ -1,0 +1,253 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#E6E6FA, #B8E7FA);
+
+}
+
+.heading-content{
+    align-items: center;
+    text-align: center;
+}
+.heading-content h1{
+    font-size: 32px;
+    font-weight: Bolder;
+    color: #0D1321;
+}
+.heading-content p{
+    font-size: 16px;
+    color: #0D1321;
+}
+
+
+header{
+    background-color: #FFFFFF60;
+    stroke: #C6DBFF;
+    padding: 24px 100px;
+
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+
+    /* margin: 24px auto 24px auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: center;
+    align-items: center; */
+}
+header p{
+    font-size: 28px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+header p span{
+    color:#FFA500;
+}
+
+
+
+.btn{
+    background-image: linear-gradient(#FFA500, #FFD447);
+    filter: drop-shadow(8px 8px 10px gray);
+    border-radius: 10px;
+    border: 0;
+    padding: 17px 24px;
+    color: #0D1321;
+    cursor: pointer;
+    width: 248.74px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.btn:hover{
+    background-image: linear-gradient(#0D1321);
+    color: #FFA500;
+}
+
+
+.banner{
+    margin: 100px auto 100px auto;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80.5%;
+    height: 592px;
+    border-radius: 16px;
+    background-color: #E6EDF9;
+
+}
+
+.banner-image{
+    width: 240.28px;
+    height: 240px;
+    margin-bottom: 32px;
+}
+
+.banner-content h1{
+    font-size: 48px;
+    font-weight: Bolder;
+    color: #0D1321;
+    margin-bottom: 24px;
+
+}
+.banner-content p{
+    font-size: 16px;
+    color: #0D1321;
+    text-align: center;
+}
+
+.button-box{
+    margin-bottom: 40px;
+}
+
+/* Why Web Development */
+
+.web-dev-banner{
+    margin: 100px auto 100px auto;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80.5%;
+    height: 484px;
+    border-radius: 16px;
+    background-color: #E6EDF9;
+
+}
+
+.dev-banner-content h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D132170;
+    line-height: 36px;
+
+}
+.dev-banner-content p{
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 32px;
+
+}
+
+
+/* My Inspiration */
+
+.my-inspiration-container{
+    margin: 100px auto 100px auto;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.video{
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    border: #0D1321;
+    padding: 32px;
+}
+.video-1{
+    border-radius: 16px;
+    padding: 32px;
+}
+
+/* My Current Target */
+
+#target{
+    width: 80.5%;
+    margin: 0px auto 100px auto;
+}
+
+#target-card-container{
+    margin: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.target-card{
+    background-image: linear-gradient(#E6EDF9, #9DE5FF);
+    padding: 40px;
+    /* text-align: center; */
+    width: 364px;
+    border-radius: 16px;
+}
+
+.target-card img{
+    margin-bottom: 24px;
+}
+
+.target-card h2{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.target-card a{
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    align-items: center;
+    background-color: #FFFFFF60;
+}
+
+
+#foot{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    align-items: center;
+    /* margin: 100px auto 100px auto; */
+}
+
+footer p{
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* footer{
+    background-color: #FFFFFF60;
+    stroke: #C6DBFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px auto auto;
+
+} */
+
+/*  
+#footer{
+    margin: 32px auto 32px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: bold;
+} */
