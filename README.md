@@ -8,4 +8,4 @@ Github live page link: https://makhzumbinharun.github.io/WDB-Assignment-01/index
 Font Name: Poppins, Azeret Mono
 
 
-![WEBSITE SAMPLE](career-mission-25.png)
+![WEBSITE SAMPLE](/resources/career-mission-25.png)
